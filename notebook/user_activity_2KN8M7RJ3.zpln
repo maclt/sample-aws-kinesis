@@ -1,0 +1,964 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "%flink.ssql\nDROP TABLE IF EXISTS user_activity;\n\nCREATE TABLE user_activity (\n    UserID STRING,\n    SessionID STRING,\n    ActivityType STRING,\n    CreatedAt TIMESTAMP(3),\n    ProductID STRING,\n    Category STRING,\n    Price DOUBLE,\n    Location STRING,\n    Device STRING\n) WITH (\n    'connector' = 'kinesis',\n    'stream' = 'Fill your stream name',\n    'aws.region' = 'ap-northeast-1',\n    'scan.stream.initpos' = 'LATEST',\n    'format' = 'json'\n);",
+      "user": "anonymous",
+      "dateUpdated": "2025-02-23T12:21:44+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Table has been dropped.\nTable has been created.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1740300635981_1412883743",
+      "id": "paragraph_1740300635981_1412883743",
+      "dateCreated": "2025-02-23T08:50:35+0000",
+      "dateStarted": "2025-02-23T12:21:44+0000",
+      "dateFinished": "2025-02-23T12:21:46+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:252"
+    },
+    {
+      "text": "%flink.ssql\nSHOW TABLES;",
+      "user": "anonymous",
+      "dateUpdated": "2025-02-23T11:50:28+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "table": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "table\nuser_activity\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1740300715772_781660072",
+      "id": "paragraph_1740300715772_781660072",
+      "dateCreated": "2025-02-23T08:51:55+0000",
+      "dateStarted": "2025-02-23T11:50:28+0000",
+      "dateFinished": "2025-02-23T11:50:28+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:253"
+    },
+    {
+      "text": "%flink.ssql\nDESCRIBE user_activity;",
+      "user": "anonymous",
+      "dateUpdated": "2025-02-23T11:50:31+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Column": "string",
+                      "Type": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Column\tType\nUserID\tSTRING\nSessionID\tSTRING\nActivityType\tSTRING\nCreatedAt\tTIMESTAMP(3)\nProductID\tSTRING\nCategory\tSTRING\nPrice\tDOUBLE\nLocation\tSTRING\nDevice\tSTRING\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1740300718237_1571978600",
+      "id": "paragraph_1740300718237_1571978600",
+      "dateCreated": "2025-02-23T08:51:58+0000",
+      "dateStarted": "2025-02-23T11:50:31+0000",
+      "dateFinished": "2025-02-23T11:50:31+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:254"
+    },
+    {
+      "text": "%flink.ssql(type=update)\n\nSELECT *\nFROM user_activity",
+      "user": "anonymous",
+      "dateUpdated": "2025-02-23T11:54:27+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {
+                    "columns": [
+                      {
+                        "name": "UserID0",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "SessionID1",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {
+                          "priority": 0,
+                          "direction": "desc"
+                        },
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "ActivityType2",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CreatedAt3",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "ProductID4",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Category5",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Price6",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Location7",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Device8",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      }
+                    ],
+                    "scrollFocus": {},
+                    "selection": [],
+                    "grouping": {
+                      "grouping": [],
+                      "aggregations": [],
+                      "rowExpandedStates": {}
+                    },
+                    "treeView": {},
+                    "pagination": {
+                      "paginationCurrentPage": 1,
+                      "paginationPageSize": 250
+                    }
+                  },
+                  "tableColumnTypeState": {
+                    "names": {
+                      "UserID": "string",
+                      "SessionID": "string",
+                      "ActivityType": "string",
+                      "CreatedAt": "string",
+                      "ProductID": "string",
+                      "Category": "string",
+                      "Price": "string",
+                      "Location": "string",
+                      "Device": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "UserID",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "SessionID",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "FLINK JOB",
+          "tooltip": "View in Flink web UI",
+          "group": "flink",
+          "values": [
+            {
+              "jobUrl": "/flinkdashboard/#/job/40a1f55203f46b52caca0502e5b522bb",
+              "$$hashKey": "object:10221"
+            }
+          ],
+          "interpreterSettingId": "flink"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1740311605331_1528779976",
+      "id": "paragraph_1740311605331_1528779976",
+      "dateCreated": "2025-02-23T11:53:25+0000",
+      "status": "ABORT",
+      "focus": true,
+      "$$hashKey": "object:5913",
+      "dateFinished": "2025-02-23T11:54:30+0000",
+      "dateStarted": "2025-02-23T11:53:40+0000",
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "UserID\tSessionID\tActivityType\tCreatedAt\tProductID\tCategory\tPrice\tLocation\tDevice\nUser001\tSession00041\tCheckout\t(NULL)\tProd105\tToys\t29.99\tSendai\tMobile\nUser001\tSession00020\tPurchase\t(NULL)\tProd104\tHome & Kitchen\t89.99\tHiroshima\tDesktop\nUser001\tSession00035\tCheckout\t(NULL)\tProd105\tToys\t29.99\tKyoto\tTablet\nUser001\tSession00028\tPage View\t(NULL)\tProd101\tElectronics\t199.99\tNagoya\tMobile\nUser002\tSession00039\tCheckout\t(NULL)\tProd101\tElectronics\t199.99\tKyoto\tDesktop\nUser002\tSession00006\tCheckout\t(NULL)\tProd105\tToys\t29.99\tKyoto\tTablet\nUser002\tSession00011\tPage View\t(NULL)\tProd103\tBooks\t15.99\tTokyo\tTablet\nUser002\tSession00011\tCheckout\t(NULL)\tProd106\tSports\t59.99\tTokyo\tMobile\nUser002\tSession00019\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tHiroshima\tTablet\nUser002\tSession00042\tPage View\t(NULL)\tProd106\tSports\t59.99\tTokyo\tMobile\nUser002\tSession00007\tPurchase\t(NULL)\tProd103\tBooks\t15.99\tNagoya\tMobile\nUser002\tSession00050\tPurchase\t(NULL)\tProd102\tClothing\t49.99\tKyoto\tDesktop\nUser002\tSession00045\tPage View\t(NULL)\tProd101\tElectronics\t199.99\tOsaka\tMobile\nUser003\tSession00044\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tSapporo\tTablet\nUser003\tSession00011\tCheckout\t(NULL)\tProd103\tBooks\t15.99\tSapporo\tTablet\nUser003\tSession00034\tPurchase\t(NULL)\tProd105\tToys\t29.99\tKyoto\tMobile\nUser003\tSession00014\tPurchase\t(NULL)\tProd105\tToys\t29.99\tHiroshima\tMobile\nUser003\tSession00015\tPage View\t(NULL)\tProd102\tClothing\t49.99\tFukuoka\tDesktop\nUser004\tSession00028\tCheckout\t(NULL)\tProd104\tHome & Kitchen\t89.99\tSendai\tDesktop\nUser004\tSession00026\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tNagoya\tTablet\nUser004\tSession00030\tAdd to Cart\t(NULL)\tProd102\tClothing\t49.99\tOsaka\tTablet\nUser004\tSession00039\tAdd to Cart\t(NULL)\tProd105\tToys\t29.99\tNagoya\tTablet\nUser004\tSession00044\tLogout\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tHiroshima\tDesktop\nUser004\tSession00043\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tSendai\tTablet\nUser004\tSession00046\tPurchase\t(NULL)\tProd106\tSports\t59.99\tSendai\tTablet\nUser005\tSession00028\tPurchase\t(NULL)\tProd104\tHome & Kitchen\t89.99\tNagoya\tDesktop\nUser005\tSession00002\tAdd to Cart\t(NULL)\tProd105\tToys\t29.99\tFukuoka\tTablet\nUser005\tSession00011\tCheckout\t(NULL)\tProd106\tSports\t59.99\tSapporo\tDesktop\nUser005\tSession00023\tPage View\t(NULL)\tProd102\tClothing\t49.99\tSapporo\tTablet\nUser005\tSession00033\tCheckout\t(NULL)\tProd103\tBooks\t15.99\tOsaka\tMobile\nUser006\tSession00017\tPurchase\t(NULL)\tProd105\tToys\t29.99\tFukuoka\tMobile\nUser006\tSession00030\tPage View\t(NULL)\tProd104\tHome & Kitchen\t89.99\tTokyo\tMobile\nUser006\tSession00012\tCheckout\t(NULL)\tProd104\tHome & Kitchen\t89.99\tSendai\tDesktop\nUser006\tSession00031\tAdd to Cart\t(NULL)\tProd105\tToys\t29.99\tSendai\tDesktop\nUser007\tSession00002\tPage View\t(NULL)\tProd105\tToys\t29.99\tHiroshima\tTablet\nUser008\tSession00019\tCheckout\t(NULL)\tProd102\tClothing\t49.99\tHiroshima\tMobile\nUser008\tSession00017\tAdd to Cart\t(NULL)\tProd101\tElectronics\t199.99\tTokyo\tDesktop\nUser008\tSession00022\tPurchase\t(NULL)\tProd104\tHome & Kitchen\t89.99\tHiroshima\tMobile\nUser008\tSession00001\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tNagoya\tDesktop\nUser008\tSession00001\tPage View\t(NULL)\tProd104\tHome & Kitchen\t89.99\tFukuoka\tMobile\nUser008\tSession00043\tPurchase\t(NULL)\tProd105\tToys\t29.99\tSapporo\tMobile\nUser008\tSession00031\tPurchase\t(NULL)\tProd101\tElectronics\t199.99\tTokyo\tDesktop\nUser009\tSession00035\tPage View\t(NULL)\tProd106\tSports\t59.99\tSapporo\tDesktop\nUser009\tSession00036\tAdd to Cart\t(NULL)\tProd106\tSports\t59.99\tFukuoka\tDesktop\nUser009\tSession00048\tCheckout\t(NULL)\tProd106\tSports\t59.99\tOsaka\tTablet\nUser009\tSession00022\tAdd to Cart\t(NULL)\tProd103\tBooks\t15.99\tFukuoka\tDesktop\nUser010\tSession00049\tAdd to Cart\t(NULL)\tProd101\tElectronics\t199.99\tSendai\tDesktop\nUser010\tSession00045\tPurchase\t(NULL)\tProd106\tSports\t59.99\tSapporo\tTablet\nUser010\tSession00014\tAdd to Cart\t(NULL)\tProd103\tBooks\t15.99\tKyoto\tMobile\nUser010\tSession00014\tCheckout\t(NULL)\tProd101\tElectronics\t199.99\tKyoto\tMobile\nUser010\tSession00033\tCheckout\t(NULL)\tProd106\tSports\t59.99\tNagoya\tDesktop\nUser010\tSession00034\tAdd to Cart\t(NULL)\tProd105\tToys\t29.99\tOsaka\tMobile\nUser010\tSession00041\tPage View\t(NULL)\tProd101\tElectronics\t199.99\tHiroshima\tMobile\nUser010\tSession00038\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tOsaka\tMobile\nUser010\tSession00020\tPurchase\t(NULL)\tProd106\tSports\t59.99\tHiroshima\tDesktop\nUser011\tSession00019\tLogout\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tHiroshima\tMobile\nUser011\tSession00045\tCheckout\t(NULL)\tProd106\tSports\t59.99\tKyoto\tMobile\nUser011\tSession00011\tPage View\t(NULL)\tProd103\tBooks\t15.99\tSendai\tDesktop\nUser012\tSession00001\tLogout\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tSapporo\tTablet\nUser012\tSession00027\tCheckout\t(NULL)\tProd103\tBooks\t15.99\tKyoto\tTablet\nUser012\tSession00009\tPurchase\t(NULL)\tProd103\tBooks\t15.99\tNagoya\tMobile\nUser012\tSession00009\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tHiroshima\tTablet\nUser012\tSession00029\tAdd to Cart\t(NULL)\tProd103\tBooks\t15.99\tSapporo\tDesktop\nUser012\tSession00025\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tKyoto\tMobile\nUser012\tSession00011\tAdd to Cart\t(NULL)\tProd106\tSports\t59.99\tSapporo\tMobile\nUser012\tSession00021\tPage View\t(NULL)\tProd102\tClothing\t49.99\tSendai\tDesktop\nUser012\tSession00033\tLogout\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tTokyo\tDesktop\nUser013\tSession00017\tCheckout\t(NULL)\tProd106\tSports\t59.99\tOsaka\tDesktop\nUser013\tSession00034\tCheckout\t(NULL)\tProd103\tBooks\t15.99\tSendai\tTablet\nUser013\tSession00043\tPage View\t(NULL)\tProd102\tClothing\t49.99\tSendai\tDesktop\nUser013\tSession00044\tPage View\t(NULL)\tProd103\tBooks\t15.99\tKyoto\tTablet\nUser013\tSession00048\tAdd to Cart\t(NULL)\tProd106\tSports\t59.99\tSapporo\tMobile\nUser013\tSession00035\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tFukuoka\tTablet\nUser014\tSession00030\tPage View\t(NULL)\tProd102\tClothing\t49.99\tFukuoka\tDesktop\nUser014\tSession00013\tCheckout\t(NULL)\tProd105\tToys\t29.99\tTokyo\tTablet\nUser014\tSession00016\tPurchase\t(NULL)\tProd104\tHome & Kitchen\t89.99\tFukuoka\tTablet\nUser014\tSession00047\tPage View\t(NULL)\tProd103\tBooks\t15.99\tOsaka\tTablet\nUser015\tSession00044\tAdd to Cart\t(NULL)\tProd102\tClothing\t49.99\tHiroshima\tDesktop\nUser015\tSession00015\tPurchase\t(NULL)\tProd103\tBooks\t15.99\tTokyo\tMobile\nUser016\tSession00049\tCheckout\t(NULL)\tProd106\tSports\t59.99\tHiroshima\tMobile\nUser016\tSession00021\tAdd to Cart\t(NULL)\tProd106\tSports\t59.99\tNagoya\tMobile\nUser017\tSession00015\tCheckout\t(NULL)\tProd104\tHome & Kitchen\t89.99\tKyoto\tTablet\nUser017\tSession00020\tAdd to Cart\t(NULL)\tProd104\tHome & Kitchen\t89.99\tSapporo\tMobile\nUser017\tSession00027\tAdd to Cart\t(NULL)\tProd103\tBooks\t15.99\tNagoya\tDesktop\nUser017\tSession00044\tPurchase\t(NULL)\tProd102\tClothing\t49.99\tOsaka\tMobile\nUser018\tSession00039\tPurchase\t(NULL)\tProd104\tHome & Kitchen\t89.99\tTokyo\tMobile\nUser018\tSession00028\tLogout\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tSendai\tDesktop\nUser018\tSession00023\tLogout\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tOsaka\tTablet\nUser018\tSession00003\tCheckout\t(NULL)\tProd106\tSports\t59.99\tKyoto\tMobile\nUser018\tSession00009\tCheckout\t(NULL)\tProd101\tElectronics\t199.99\tKyoto\tMobile\nUser018\tSession00037\tAdd to Cart\t(NULL)\tProd104\tHome & Kitchen\t89.99\tKyoto\tDesktop\nUser018\tSession00034\tCheckout\t(NULL)\tProd106\tSports\t59.99\tSendai\tMobile\nUser019\tSession00044\tPurchase\t(NULL)\tProd105\tToys\t29.99\tFukuoka\tTablet\nUser019\tSession00008\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tTokyo\tDesktop\nUser019\tSession00032\tPurchase\t(NULL)\tProd102\tClothing\t49.99\tSapporo\tMobile\nUser019\tSession00047\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tKyoto\tDesktop\nUser019\tSession00016\tLogout\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tFukuoka\tDesktop\nUser020\tSession00019\tPurchase\t(NULL)\tProd102\tClothing\t49.99\tKyoto\tTablet\nUser020\tSession00012\tSearch\t(NULL)\t(NULL)\t(NULL)\t(NULL)\tHiroshima\tMobile\nUser020\tSession00038\tPage View\t(NULL)\tProd101\tElectronics\t199.99\tNagoya\tMobile\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Fail to run sql command: SELECT *\nFROM user_activity\n"
+          },
+          {
+            "type": "ANGULAR",
+            "data": "<div class='container ng-scope' style='padding-left:0px;padding-right:0px;'>\n    <div class='panel panel-danger'>\n        <div class='panel-heading' ng-click='isOpen=!isOpen' ng-init='isOpen=false' style=\"cursor:pointer\">\n            <div class='plainTextContainer' style='font-weight:bolder'><i class=\"fa fa-caret-right fa-fw\" style=\"padding-right:7px;transition:all 0.3s;{{isOpen?'transform:rotate(90deg);transform-origin:25% 45%':''}}\"></i>Job was cancelled.</div>\n        </div>\n        <div class='panel-collapse' uib-collapse='!isOpen'>\n            <div class='text' style='max-height:300px;overflow:auto;padding:10px'>java.lang.RuntimeException: Fail to run update type stream job\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.callInnerSelect(FlinkStreamSqlInterpreter.java:94)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.lambda$open$0(FlinkStreamSqlInterpreter.java:49)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callStreamInnerSelect(Flink115SqlInterpreter.java:451)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callSelect(Flink115SqlInterpreter.java:435)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callOperation(Flink115SqlInterpreter.java:290)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.runSqlList(Flink115SqlInterpreter.java:236)\n\tat org.apache.zeppelin.flink.Flink115Shims.runSqlList(Flink115Shims.java:315)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.runSqlList(FlinkStreamSqlInterpreter.java:103)\n\tat org.apache.zeppelin.flink.FlinkSqlInterpreter.internalInterpret(FlinkSqlInterpreter.java:63)\n\tat org.apache.zeppelin.interpreter.AbstractInterpreter.interpret(AbstractInterpreter.java:55)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:110)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:860)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:752)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:172)\n\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:132)\n\tat org.apache.zeppelin.scheduler.ParallelScheduler.lambda$runJobInScheduler$0(ParallelScheduler.java:46)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\nCaused by: java.io.IOException: Fail to run stream sql job\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:165)\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:109)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.callInnerSelect(FlinkStreamSqlInterpreter.java:92)\n\t... 18 more\nCaused by: java.util.concurrent.ExecutionException: org.apache.flink.table.api.TableException: Failed to wait job finish\n\tat java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2005)\n\tat org.apache.flink.table.api.internal.TableResultImpl.awaitInternal(TableResultImpl.java:118)\n\tat org.apache.flink.table.api.internal.TableResultImpl.await(TableResultImpl.java:81)\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:154)\n\t... 20 more\nCaused by: org.apache.flink.table.api.TableException: Failed to wait job finish\n\tat org.apache.flink.table.api.internal.InsertResultProvider.hasNext(InsertResultProvider.java:85)\n\tat org.apache.flink.table.api.internal.InsertResultProvider.isFirstRowReady(InsertResultProvider.java:71)\n\tat org.apache.flink.table.api.internal.TableResultImpl.lambda$awaitInternal$1(TableResultImpl.java:105)\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)\n\t... 3 more\nCaused by: java.util.concurrent.ExecutionException: org.apache.flink.client.program.ProgramInvocationException: Job failed (JobID: 40a1f55203f46b52caca0502e5b522bb)\n\tat java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2005)\n\tat org.apache.flink.table.api.internal.InsertResultProvider.hasNext(InsertResultProvider.java:83)\n\t... 6 more\nCaused by: org.apache.flink.client.program.ProgramInvocationException: Job failed (JobID: 40a1f55203f46b52caca0502e5b522bb)\n\tat org.apache.flink.client.deployment.ClusterClientJobClientAdapter.lambda$getJobExecutionResult$6(ClusterClientJobClientAdapter.java:130)\n\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.util.concurrent.FutureUtils.lambda$retryOperationWithDelay$9(FutureUtils.java:403)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.client.program.rest.RestClusterClient.lambda$pollResourceAsync$26(RestClusterClient.java:708)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.util.concurrent.FutureUtils.lambda$retryOperationWithDelay$9(FutureUtils.java:403)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610)\n\tat java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085)\n\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)\n\t... 3 more\nCaused by: org.apache.flink.runtime.client.JobCancellationException: Job was cancelled.\n\tat org.apache.flink.runtime.jobmaster.JobResult.toJobExecutionResult(JobResult.java:146)\n\tat org.apache.flink.client.deployment.ClusterClientJobClientAdapter.lambda$getJobExecutionResult$6(ClusterClientJobClientAdapter.java:128)\n\t... 23 more\n</div>\n        </div>\n    </div>\n</div>\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%flink.ssql(type=update)\n\nSELECT UserID, SUM(Price)\nFROM user_activity\nWHERE ActivityType = 'Purchase'\nGROUP BY UserID",
+      "user": "anonymous",
+      "dateUpdated": "2025-02-23T11:59:51+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "UserID": "string",
+                      "EXPR$1": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default",
+                  "stacked": false
+                },
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "UserID",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "EXPR$1",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false
+        },
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "FLINK JOB",
+          "tooltip": "View in Flink web UI",
+          "group": "flink",
+          "values": [
+            {
+              "jobUrl": "/flinkdashboard/#/job/c55483c8d57a0a8f5c86306ca872adca",
+              "$$hashKey": "object:13404"
+            }
+          ],
+          "interpreterSettingId": "flink"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1740300961803_213026589",
+      "id": "paragraph_1740300961803_213026589",
+      "dateCreated": "2025-02-23T08:56:01+0000",
+      "dateStarted": "2025-02-23T09:41:38+0000",
+      "dateFinished": "2025-02-23T11:53:22+0000",
+      "status": "ABORT",
+      "$$hashKey": "object:255",
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "UserID\tEXPR$1\nUser001\t559.95\nUser002\t339.90000000000003\nUser003\t239.92000000000002\nUser004\t1229.8600000000001\nUser005\t959.9300000000001\nUser006\t179.95000000000002\nUser007\t89.97\nUser008\t1507.8200000000002\nUser009\t199.99\nUser010\t479.92\nUser011\t329.94\nUser012\t243.92000000000004\nUser014\t559.95\nUser015\t153.93\nUser016\t47.97\nUser017\t199.96\nUser018\t1959.88\nUser019\t409.89000000000004\nUser020\t199.96\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Fail to run sql command: SELECT UserID, SUM(Price)\nFROM user_activity\nWHERE ActivityType = 'Purchase'\nGROUP BY UserID\n"
+          },
+          {
+            "type": "ANGULAR",
+            "data": "<div class='container ng-scope' style='padding-left:0px;padding-right:0px;'>\n    <div class='panel panel-danger'>\n        <div class='panel-heading' ng-click='isOpen=!isOpen' ng-init='isOpen=false' style=\"cursor:pointer\">\n            <div class='plainTextContainer' style='font-weight:bolder'><i class=\"fa fa-caret-right fa-fw\" style=\"padding-right:7px;transition:all 0.3s;{{isOpen?'transform:rotate(90deg);transform-origin:25% 45%':''}}\"></i>Job was cancelled.</div>\n        </div>\n        <div class='panel-collapse' uib-collapse='!isOpen'>\n            <div class='text' style='max-height:300px;overflow:auto;padding:10px'>java.lang.RuntimeException: Fail to run update type stream job\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.callInnerSelect(FlinkStreamSqlInterpreter.java:94)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.lambda$open$0(FlinkStreamSqlInterpreter.java:49)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callStreamInnerSelect(Flink115SqlInterpreter.java:451)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callSelect(Flink115SqlInterpreter.java:435)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callOperation(Flink115SqlInterpreter.java:290)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.runSqlList(Flink115SqlInterpreter.java:236)\n\tat org.apache.zeppelin.flink.Flink115Shims.runSqlList(Flink115Shims.java:315)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.runSqlList(FlinkStreamSqlInterpreter.java:103)\n\tat org.apache.zeppelin.flink.FlinkSqlInterpreter.internalInterpret(FlinkSqlInterpreter.java:63)\n\tat org.apache.zeppelin.interpreter.AbstractInterpreter.interpret(AbstractInterpreter.java:55)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:110)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:860)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:752)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:172)\n\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:132)\n\tat org.apache.zeppelin.scheduler.ParallelScheduler.lambda$runJobInScheduler$0(ParallelScheduler.java:46)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\nCaused by: java.io.IOException: Fail to run stream sql job\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:165)\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:109)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.callInnerSelect(FlinkStreamSqlInterpreter.java:92)\n\t... 18 more\nCaused by: java.util.concurrent.ExecutionException: org.apache.flink.table.api.TableException: Failed to wait job finish\n\tat java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2005)\n\tat org.apache.flink.table.api.internal.TableResultImpl.awaitInternal(TableResultImpl.java:118)\n\tat org.apache.flink.table.api.internal.TableResultImpl.await(TableResultImpl.java:81)\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:154)\n\t... 20 more\nCaused by: org.apache.flink.table.api.TableException: Failed to wait job finish\n\tat org.apache.flink.table.api.internal.InsertResultProvider.hasNext(InsertResultProvider.java:85)\n\tat org.apache.flink.table.api.internal.InsertResultProvider.isFirstRowReady(InsertResultProvider.java:71)\n\tat org.apache.flink.table.api.internal.TableResultImpl.lambda$awaitInternal$1(TableResultImpl.java:105)\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)\n\t... 3 more\nCaused by: java.util.concurrent.ExecutionException: org.apache.flink.client.program.ProgramInvocationException: Job failed (JobID: c55483c8d57a0a8f5c86306ca872adca)\n\tat java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2005)\n\tat org.apache.flink.table.api.internal.InsertResultProvider.hasNext(InsertResultProvider.java:83)\n\t... 6 more\nCaused by: org.apache.flink.client.program.ProgramInvocationException: Job failed (JobID: c55483c8d57a0a8f5c86306ca872adca)\n\tat org.apache.flink.client.deployment.ClusterClientJobClientAdapter.lambda$getJobExecutionResult$6(ClusterClientJobClientAdapter.java:130)\n\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.util.concurrent.FutureUtils.lambda$retryOperationWithDelay$9(FutureUtils.java:403)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.client.program.rest.RestClusterClient.lambda$pollResourceAsync$26(RestClusterClient.java:708)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.util.concurrent.FutureUtils.lambda$retryOperationWithDelay$9(FutureUtils.java:403)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610)\n\tat java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085)\n\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)\n\t... 3 more\nCaused by: org.apache.flink.runtime.client.JobCancellationException: Job was cancelled.\n\tat org.apache.flink.runtime.jobmaster.JobResult.toJobExecutionResult(JobResult.java:146)\n\tat org.apache.flink.client.deployment.ClusterClientJobClientAdapter.lambda$getJobExecutionResult$6(ClusterClientJobClientAdapter.java:128)\n\t... 23 more\n</div>\n        </div>\n    </div>\n</div>\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%flink.ssql(type=update)\n\nSELECT Location, SUM(Price)\nFROM user_activity\nWHERE ActivityType = 'Purchase'\nGROUP BY Location",
+      "user": "anonymous",
+      "dateUpdated": "2025-02-23T11:50:40+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Location": "string",
+                      "EXPR$1": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "Location",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "EXPR$1",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Location\tEXPR$1\nFukuoka\t915.9000000000001\nHiroshima\t1147.81\nKyoto\t439.88000000000005\nNagoya\t1113.88\nOsaka\t1119.8600000000001\nSapporo\t1629.8400000000001\nSendai\t457.9200000000001\nTokyo\t611.94\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Fail to run sql command: SELECT Location, SUM(Price)\nFROM user_activity\nWHERE ActivityType = 'Purchase'\nGROUP BY Location\n"
+          },
+          {
+            "type": "ANGULAR",
+            "data": "<div class='container ng-scope' style='padding-left:0px;padding-right:0px;'>\n    <div class='panel panel-danger'>\n        <div class='panel-heading' ng-click='isOpen=!isOpen' ng-init='isOpen=false' style=\"cursor:pointer\">\n            <div class='plainTextContainer' style='font-weight:bolder'><i class=\"fa fa-caret-right fa-fw\" style=\"padding-right:7px;transition:all 0.3s;{{isOpen?'transform:rotate(90deg);transform-origin:25% 45%':''}}\"></i>Job was cancelled.</div>\n        </div>\n        <div class='panel-collapse' uib-collapse='!isOpen'>\n            <div class='text' style='max-height:300px;overflow:auto;padding:10px'>java.lang.RuntimeException: Fail to run update type stream job\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.callInnerSelect(FlinkStreamSqlInterpreter.java:94)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.lambda$open$0(FlinkStreamSqlInterpreter.java:49)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callStreamInnerSelect(Flink115SqlInterpreter.java:451)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callSelect(Flink115SqlInterpreter.java:435)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callOperation(Flink115SqlInterpreter.java:290)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.runSqlList(Flink115SqlInterpreter.java:236)\n\tat org.apache.zeppelin.flink.Flink115Shims.runSqlList(Flink115Shims.java:315)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.runSqlList(FlinkStreamSqlInterpreter.java:103)\n\tat org.apache.zeppelin.flink.FlinkSqlInterpreter.internalInterpret(FlinkSqlInterpreter.java:63)\n\tat org.apache.zeppelin.interpreter.AbstractInterpreter.interpret(AbstractInterpreter.java:55)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:110)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:860)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:752)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:172)\n\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:132)\n\tat org.apache.zeppelin.scheduler.ParallelScheduler.lambda$runJobInScheduler$0(ParallelScheduler.java:46)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\nCaused by: java.io.IOException: Fail to run stream sql job\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:165)\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:109)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.callInnerSelect(FlinkStreamSqlInterpreter.java:92)\n\t... 18 more\nCaused by: java.util.concurrent.ExecutionException: org.apache.flink.table.api.TableException: Failed to wait job finish\n\tat java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2005)\n\tat org.apache.flink.table.api.internal.TableResultImpl.awaitInternal(TableResultImpl.java:118)\n\tat org.apache.flink.table.api.internal.TableResultImpl.await(TableResultImpl.java:81)\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:154)\n\t... 20 more\nCaused by: org.apache.flink.table.api.TableException: Failed to wait job finish\n\tat org.apache.flink.table.api.internal.InsertResultProvider.hasNext(InsertResultProvider.java:85)\n\tat org.apache.flink.table.api.internal.InsertResultProvider.isFirstRowReady(InsertResultProvider.java:71)\n\tat org.apache.flink.table.api.internal.TableResultImpl.lambda$awaitInternal$1(TableResultImpl.java:105)\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)\n\t... 3 more\nCaused by: java.util.concurrent.ExecutionException: org.apache.flink.client.program.ProgramInvocationException: Job failed (JobID: 9cb63e3bfa5b4bdec9c5fdafdaa93096)\n\tat java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2005)\n\tat org.apache.flink.table.api.internal.InsertResultProvider.hasNext(InsertResultProvider.java:83)\n\t... 6 more\nCaused by: org.apache.flink.client.program.ProgramInvocationException: Job failed (JobID: 9cb63e3bfa5b4bdec9c5fdafdaa93096)\n\tat org.apache.flink.client.deployment.ClusterClientJobClientAdapter.lambda$getJobExecutionResult$6(ClusterClientJobClientAdapter.java:130)\n\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.util.concurrent.FutureUtils.lambda$retryOperationWithDelay$9(FutureUtils.java:403)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.client.program.rest.RestClusterClient.lambda$pollResourceAsync$26(RestClusterClient.java:708)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.util.concurrent.FutureUtils.lambda$retryOperationWithDelay$9(FutureUtils.java:403)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610)\n\tat java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085)\n\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)\n\t... 3 more\nCaused by: org.apache.flink.runtime.client.JobCancellationException: Job was cancelled.\n\tat org.apache.flink.runtime.jobmaster.JobResult.toJobExecutionResult(JobResult.java:146)\n\tat org.apache.flink.client.deployment.ClusterClientJobClientAdapter.lambda$getJobExecutionResult$6(ClusterClientJobClientAdapter.java:128)\n\t... 23 more\n</div>\n        </div>\n    </div>\n</div>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "FLINK JOB",
+          "tooltip": "View in Flink web UI",
+          "group": "flink",
+          "values": [
+            {
+              "jobUrl": "/flinkdashboard/#/job/9cb63e3bfa5b4bdec9c5fdafdaa93096",
+              "$$hashKey": "object:2819"
+            }
+          ],
+          "interpreterSettingId": "flink"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1740301390087_1975010561",
+      "id": "paragraph_1740301390087_1975010561",
+      "dateCreated": "2025-02-23T09:03:10+0000",
+      "dateStarted": "2025-02-23T09:32:26+0000",
+      "dateFinished": "2025-02-23T09:33:56+0000",
+      "status": "ABORT",
+      "$$hashKey": "object:256"
+    },
+    {
+      "text": "%flink.ssql(type=update)\n\nSELECT Category, COUNT(Category)\nFROM user_activity\nWHERE ActivityType = 'Purchase'\nGROUP BY Category",
+      "user": "anonymous",
+      "dateUpdated": "2025-02-23T11:50:42+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "editorHide": false,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Category": "string",
+                      "EXPR$1": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "stackedAreaChart": {
+                  "xLabelStatus": "default",
+                  "rotate": {
+                    "degree": "-45"
+                  }
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "Category",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "EXPR$1",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Category\tEXPR$1\nBooks\t19\nClothing\t19\nElectronics\t21\nHome & Kitchen\t24\nSports\t20\nToys\t36\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Fail to run sql command: SELECT Category, COUNT(Category)\nFROM user_activity\nWHERE ActivityType = 'Purchase'\nGROUP BY Category\n"
+          },
+          {
+            "type": "ANGULAR",
+            "data": "<div class='container ng-scope' style='padding-left:0px;padding-right:0px;'>\n    <div class='panel panel-danger'>\n        <div class='panel-heading' ng-click='isOpen=!isOpen' ng-init='isOpen=false' style=\"cursor:pointer\">\n            <div class='plainTextContainer' style='font-weight:bolder'><i class=\"fa fa-caret-right fa-fw\" style=\"padding-right:7px;transition:all 0.3s;{{isOpen?'transform:rotate(90deg);transform-origin:25% 45%':''}}\"></i>Job was cancelled.</div>\n        </div>\n        <div class='panel-collapse' uib-collapse='!isOpen'>\n            <div class='text' style='max-height:300px;overflow:auto;padding:10px'>java.lang.RuntimeException: Fail to run update type stream job\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.callInnerSelect(FlinkStreamSqlInterpreter.java:94)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.lambda$open$0(FlinkStreamSqlInterpreter.java:49)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callStreamInnerSelect(Flink115SqlInterpreter.java:451)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callSelect(Flink115SqlInterpreter.java:435)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.callOperation(Flink115SqlInterpreter.java:290)\n\tat org.apache.zeppelin.flink.Flink115SqlInterpreter.runSqlList(Flink115SqlInterpreter.java:236)\n\tat org.apache.zeppelin.flink.Flink115Shims.runSqlList(Flink115Shims.java:315)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.runSqlList(FlinkStreamSqlInterpreter.java:103)\n\tat org.apache.zeppelin.flink.FlinkSqlInterpreter.internalInterpret(FlinkSqlInterpreter.java:63)\n\tat org.apache.zeppelin.interpreter.AbstractInterpreter.interpret(AbstractInterpreter.java:55)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:110)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:860)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:752)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:172)\n\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:132)\n\tat org.apache.zeppelin.scheduler.ParallelScheduler.lambda$runJobInScheduler$0(ParallelScheduler.java:46)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\nCaused by: java.io.IOException: Fail to run stream sql job\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:165)\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:109)\n\tat org.apache.zeppelin.flink.FlinkStreamSqlInterpreter.callInnerSelect(FlinkStreamSqlInterpreter.java:92)\n\t... 18 more\nCaused by: java.util.concurrent.ExecutionException: org.apache.flink.table.api.TableException: Failed to wait job finish\n\tat java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2005)\n\tat org.apache.flink.table.api.internal.TableResultImpl.awaitInternal(TableResultImpl.java:118)\n\tat org.apache.flink.table.api.internal.TableResultImpl.await(TableResultImpl.java:81)\n\tat org.apache.zeppelin.flink.sql.AbstractStreamSqlJob.run(AbstractStreamSqlJob.java:154)\n\t... 20 more\nCaused by: org.apache.flink.table.api.TableException: Failed to wait job finish\n\tat org.apache.flink.table.api.internal.InsertResultProvider.hasNext(InsertResultProvider.java:85)\n\tat org.apache.flink.table.api.internal.InsertResultProvider.isFirstRowReady(InsertResultProvider.java:71)\n\tat org.apache.flink.table.api.internal.TableResultImpl.lambda$awaitInternal$1(TableResultImpl.java:105)\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)\n\t... 3 more\nCaused by: java.util.concurrent.ExecutionException: org.apache.flink.client.program.ProgramInvocationException: Job failed (JobID: 40d888ee3e14344188859f9714aefeee)\n\tat java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2005)\n\tat org.apache.flink.table.api.internal.InsertResultProvider.hasNext(InsertResultProvider.java:83)\n\t... 6 more\nCaused by: org.apache.flink.client.program.ProgramInvocationException: Job failed (JobID: 40d888ee3e14344188859f9714aefeee)\n\tat org.apache.flink.client.deployment.ClusterClientJobClientAdapter.lambda$getJobExecutionResult$6(ClusterClientJobClientAdapter.java:130)\n\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.util.concurrent.FutureUtils.lambda$retryOperationWithDelay$9(FutureUtils.java:403)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.client.program.rest.RestClusterClient.lambda$pollResourceAsync$26(RestClusterClient.java:708)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)\n\tat org.apache.flink.util.concurrent.FutureUtils.lambda$retryOperationWithDelay$9(FutureUtils.java:403)\n\tat java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)\n\tat java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)\n\tat java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)\n\tat java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610)\n\tat java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1085)\n\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)\n\t... 3 more\nCaused by: org.apache.flink.runtime.client.JobCancellationException: Job was cancelled.\n\tat org.apache.flink.runtime.jobmaster.JobResult.toJobExecutionResult(JobResult.java:146)\n\tat org.apache.flink.client.deployment.ClusterClientJobClientAdapter.lambda$getJobExecutionResult$6(ClusterClientJobClientAdapter.java:128)\n\t... 23 more\n</div>\n        </div>\n    </div>\n</div>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "FLINK JOB",
+          "tooltip": "View in Flink web UI",
+          "group": "flink",
+          "values": [
+            {
+              "jobUrl": "/flinkdashboard/#/job/40d888ee3e14344188859f9714aefeee",
+              "$$hashKey": "object:2832"
+            }
+          ],
+          "interpreterSettingId": "flink"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1740303111060_848717236",
+      "id": "paragraph_1740303111060_848717236",
+      "dateCreated": "2025-02-23T09:31:51+0000",
+      "dateStarted": "2025-02-23T09:39:29+0000",
+      "dateFinished": "2025-02-23T09:40:18+0000",
+      "status": "ABORT",
+      "$$hashKey": "object:257"
+    },
+    {
+      "text": "%flink.ssql(type=update)\n\nSELECT Location, Category, COUNT(*)\nFROM user_activity\nWHERE ActivityType = 'Purchase'\nGROUP BY Location, Category",
+      "user": "anonymous",
+      "dateUpdated": "2025-02-23T12:20:37+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Location": "string",
+                      "Category": "string",
+                      "EXPR$2": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "scatterChart": {
+                  "group": {
+                    "name": "Category",
+                    "index": 1,
+                    "aggr": "sum"
+                  },
+                  "yAxis": {
+                    "name": "Category",
+                    "index": 1,
+                    "aggr": "sum"
+                  }
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "pieChart": {},
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [],
+              "groups": [],
+              "values": []
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "FLINK JOB",
+          "tooltip": "View in Flink web UI",
+          "group": "flink",
+          "values": [
+            {
+              "jobUrl": "/flinkdashboard/#/job/06a92bb59259d95545d5ff4ddc78151e",
+              "$$hashKey": "object:26946"
+            }
+          ],
+          "interpreterSettingId": "flink"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1740303205303_74466992",
+      "id": "paragraph_1740303205303_74466992",
+      "dateCreated": "2025-02-23T09:33:25+0000",
+      "status": "RUNNING",
+      "$$hashKey": "object:258",
+      "dateStarted": "2025-02-23T11:55:51+0000",
+      "results": {
+        "msg": [
+          {
+            "data": "Location\tCategory\tEXPR$2\nFukuoka\tHome & Kitchen\t1\nFukuoka\tToys\t2\nFukuoka\tBooks\t2\nHiroshima\tToys\t1\nHiroshima\tSports\t1\nHiroshima\tElectronics\t2\nHiroshima\tHome & Kitchen\t4\nKyoto\tToys\t1\nKyoto\tClothing\t2\nNagoya\tHome & Kitchen\t1\nNagoya\tBooks\t2\nOsaka\tClothing\t1\nOsaka\tElectronics\t6\nSapporo\tToys\t1\nSapporo\tClothing\t1\nSapporo\tSports\t3\nSendai\tSports\t3\nSendai\tToys\t2\nSendai\tElectronics\t2\nTokyo\tHome & Kitchen\t1\nTokyo\tBooks\t1\nTokyo\tElectronics\t1\n",
+            "type": "TABLE"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%flink.ssql\n",
+      "user": "anonymous",
+      "dateUpdated": "2025-02-23T12:47:49+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1740313051518_140801314",
+      "id": "paragraph_1740313051518_140801314",
+      "dateCreated": "2025-02-23T12:17:31+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:24288"
+    }
+  ],
+  "name": "user_activity",
+  "id": "2KN8M7RJ3",
+  "defaultInterpreterGroup": "flink",
+  "version": "0.10.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {
+    "isRunning": false
+  },
+  "path": "/user_activity"
+}
