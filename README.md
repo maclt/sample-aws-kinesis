@@ -2,4 +2,4 @@
 
 ## Reference
 Please read article to know more about this repo!  
-https://maclt.substack.com/p/batch-etl-by-aws-glue
+https://maclt.substack.com/p/realtime-analysis-by-managed-flink
