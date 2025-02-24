@@ -1,0 +1,501 @@
+UserID,SessionID,ActivityType,Timestamp,ProductID,Category,Price,Location,Device
+User006,Session00068,Logout,2025-02-05 16:42:34,,,,Nagoya,Desktop
+User015,Session00035,Purchase,2025-02-05 23:28:04,Prod106,Sports,59.99,Kyoto,Mobile
+User005,Session00096,Page View,2025-02-05 03:58:04,Prod101,Electronics,199.99,Tokyo,Mobile
+User015,Session00013,Add to Cart,2025-02-05 02:21:40,Prod106,Sports,59.99,Nagoya,Mobile
+User009,Session00092,Checkout,2025-02-05 15:43:08,Prod102,Clothing,49.99,Sendai,Desktop
+User020,Session00098,Checkout,2025-02-05 18:38:50,Prod103,Books,15.99,Kyoto,Tablet
+User009,Session00089,Page View,2025-02-05 11:17:09,Prod102,Clothing,49.99,Kyoto,Mobile
+User005,Session00046,Page View,2025-02-05 07:22:12,Prod104,Home & Kitchen,89.99,Nagoya,Mobile
+User014,Session00064,Page View,2025-02-05 13:46:05,Prod101,Electronics,199.99,Fukuoka,Tablet
+User007,Session00032,Add to Cart,2025-02-05 05:22:37,Prod104,Home & Kitchen,89.99,Kyoto,Mobile
+User014,Session00059,Search,2025-02-05 18:12:19,,,,Hiroshima,Tablet
+User006,Session00080,Search,2025-02-05 15:09:35,,,,Fukuoka,Mobile
+User004,Session00039,Page View,2025-02-05 01:17:29,Prod106,Sports,59.99,Hiroshima,Mobile
+User012,Session00074,Logout,2025-02-05 10:53:12,,,,Sendai,Desktop
+User019,Session00082,Search,2025-02-05 09:39:13,,,,Tokyo,Mobile
+User018,Session00098,Logout,2025-02-05 08:52:53,,,,Fukuoka,Desktop
+User013,Session00005,Logout,2025-02-05 23:03:25,,,,Osaka,Desktop
+User008,Session00008,Search,2025-02-05 00:35:45,,,,Nagoya,Tablet
+User016,Session00076,Logout,2025-02-05 03:57:06,,,,Sapporo,Tablet
+User010,Session00092,Checkout,2025-02-05 13:18:11,Prod101,Electronics,199.99,Sendai,Tablet
+User007,Session00021,Page View,2025-02-05 14:27:47,Prod101,Electronics,199.99,Sapporo,Mobile
+User015,Session00022,Logout,2025-02-05 23:25:28,,,,Sendai,Desktop
+User007,Session00049,Logout,2025-02-05 22:46:46,,,,Hiroshima,Mobile
+User011,Session00036,Purchase,2025-02-05 13:59:12,Prod103,Books,15.99,Kyoto,Desktop
+User019,Session00067,Logout,2025-02-05 22:20:03,,,,Sapporo,Tablet
+User004,Session00075,Page View,2025-02-05 06:58:29,Prod105,Toys,29.99,Tokyo,Mobile
+User005,Session00048,Page View,2025-02-05 20:27:47,Prod102,Clothing,49.99,Fukuoka,Tablet
+User020,Session00052,Purchase,2025-02-05 01:54:58,Prod103,Books,15.99,Kyoto,Mobile
+User008,Session00040,Search,2025-02-05 12:20:34,,,,Fukuoka,Mobile
+User017,Session00003,Page View,2025-02-05 00:14:57,Prod102,Clothing,49.99,Nagoya,Desktop
+User016,Session00045,Checkout,2025-02-05 20:18:21,Prod104,Home & Kitchen,89.99,Tokyo,Mobile
+User006,Session00059,Add to Cart,2025-02-05 23:34:20,Prod106,Sports,59.99,Sapporo,Desktop
+User011,Session00077,Search,2025-02-05 00:36:20,,,,Osaka,Desktop
+User001,Session00038,Checkout,2025-02-05 11:40:48,Prod106,Sports,59.99,Sendai,Tablet
+User013,Session00058,Checkout,2025-02-05 01:54:26,Prod104,Home & Kitchen,89.99,Kyoto,Mobile
+User011,Session00032,Logout,2025-02-05 01:35:20,,,,Hiroshima,Desktop
+User001,Session00062,Add to Cart,2025-02-05 21:09:58,Prod104,Home & Kitchen,89.99,Osaka,Mobile
+User012,Session00045,Search,2025-02-05 22:15:40,,,,Kyoto,Tablet
+User020,Session00094,Checkout,2025-02-05 19:16:55,Prod104,Home & Kitchen,89.99,Sapporo,Desktop
+User019,Session00075,Page View,2025-02-05 00:11:15,Prod104,Home & Kitchen,89.99,Hiroshima,Mobile
+User007,Session00052,Checkout,2025-02-05 01:42:50,Prod104,Home & Kitchen,89.99,Hiroshima,Tablet
+User020,Session00077,Purchase,2025-02-05 07:48:41,Prod104,Home & Kitchen,89.99,Tokyo,Mobile
+User007,Session00087,Search,2025-02-05 10:03:28,,,,Sendai,Desktop
+User011,Session00077,Add to Cart,2025-02-05 20:58:36,Prod106,Sports,59.99,Kyoto,Tablet
+User010,Session00044,Page View,2025-02-05 22:30:15,Prod105,Toys,29.99,Nagoya,Mobile
+User008,Session00065,Search,2025-02-05 05:05:25,,,,Osaka,Tablet
+User010,Session00040,Purchase,2025-02-05 18:03:26,Prod105,Toys,29.99,Nagoya,Tablet
+User005,Session00091,Checkout,2025-02-05 15:35:54,Prod104,Home & Kitchen,89.99,Sendai,Tablet
+User007,Session00009,Add to Cart,2025-02-05 11:23:46,Prod104,Home & Kitchen,89.99,Fukuoka,Tablet
+User002,Session00051,Logout,2025-02-05 23:21:10,,,,Osaka,Mobile
+User011,Session00057,Purchase,2025-02-05 21:39:26,Prod101,Electronics,199.99,Sendai,Mobile
+User017,Session00053,Checkout,2025-02-05 21:12:56,Prod105,Toys,29.99,Fukuoka,Mobile
+User001,Session00009,Add to Cart,2025-02-05 18:00:07,Prod105,Toys,29.99,Nagoya,Desktop
+User016,Session00021,Search,2025-02-05 09:41:30,,,,Fukuoka,Desktop
+User011,Session00086,Checkout,2025-02-05 04:08:25,Prod103,Books,15.99,Fukuoka,Tablet
+User020,Session00093,Checkout,2025-02-05 10:40:55,Prod102,Clothing,49.99,Hiroshima,Desktop
+User014,Session00019,Logout,2025-02-05 13:22:51,,,,Hiroshima,Mobile
+User003,Session00036,Checkout,2025-02-05 23:19:35,Prod104,Home & Kitchen,89.99,Osaka,Desktop
+User017,Session00051,Add to Cart,2025-02-05 19:16:56,Prod103,Books,15.99,Kyoto,Desktop
+User009,Session00100,Purchase,2025-02-05 22:51:00,Prod106,Sports,59.99,Hiroshima,Mobile
+User019,Session00018,Purchase,2025-02-05 23:14:18,Prod102,Clothing,49.99,Fukuoka,Mobile
+User004,Session00099,Logout,2025-02-05 09:05:38,,,,Sapporo,Mobile
+User001,Session00054,Page View,2025-02-05 05:57:24,Prod101,Electronics,199.99,Hiroshima,Mobile
+User015,Session00011,Checkout,2025-02-05 11:57:24,Prod103,Books,15.99,Sendai,Tablet
+User012,Session00100,Checkout,2025-02-05 00:04:25,Prod104,Home & Kitchen,89.99,Osaka,Mobile
+User014,Session00009,Add to Cart,2025-02-05 13:24:11,Prod106,Sports,59.99,Tokyo,Desktop
+User019,Session00027,Page View,2025-02-05 15:32:42,Prod105,Toys,29.99,Kyoto,Tablet
+User002,Session00009,Page View,2025-02-05 16:12:45,Prod104,Home & Kitchen,89.99,Kyoto,Tablet
+User002,Session00059,Add to Cart,2025-02-05 16:07:25,Prod105,Toys,29.99,Hiroshima,Tablet
+User009,Session00059,Logout,2025-02-05 23:14:12,,,,Osaka,Tablet
+User007,Session00004,Search,2025-02-05 06:40:19,,,,Kyoto,Tablet
+User009,Session00002,Search,2025-02-05 05:48:18,,,,Nagoya,Desktop
+User002,Session00038,Page View,2025-02-05 13:15:02,Prod103,Books,15.99,Osaka,Tablet
+User005,Session00047,Add to Cart,2025-02-05 10:53:58,Prod104,Home & Kitchen,89.99,Sapporo,Desktop
+User010,Session00022,Logout,2025-02-05 06:47:10,,,,Fukuoka,Desktop
+User018,Session00011,Page View,2025-02-05 21:10:12,Prod104,Home & Kitchen,89.99,Tokyo,Desktop
+User008,Session00033,Purchase,2025-02-05 00:09:51,Prod105,Toys,29.99,Nagoya,Desktop
+User014,Session00087,Search,2025-02-05 16:31:23,,,,Osaka,Desktop
+User007,Session00053,Purchase,2025-02-05 06:20:45,Prod105,Toys,29.99,Tokyo,Tablet
+User009,Session00096,Page View,2025-02-05 04:00:02,Prod102,Clothing,49.99,Nagoya,Tablet
+User018,Session00082,Logout,2025-02-05 16:19:13,,,,Hiroshima,Tablet
+User013,Session00052,Add to Cart,2025-02-05 05:09:32,Prod101,Electronics,199.99,Tokyo,Tablet
+User016,Session00095,Checkout,2025-02-05 12:27:16,Prod102,Clothing,49.99,Hiroshima,Mobile
+User013,Session00003,Page View,2025-02-05 21:06:25,Prod103,Books,15.99,Fukuoka,Mobile
+User003,Session00095,Add to Cart,2025-02-05 22:01:00,Prod104,Home & Kitchen,89.99,Tokyo,Mobile
+User015,Session00025,Checkout,2025-02-05 16:25:28,Prod105,Toys,29.99,Sendai,Mobile
+User016,Session00068,Page View,2025-02-05 18:03:47,Prod104,Home & Kitchen,89.99,Osaka,Mobile
+User002,Session00027,Add to Cart,2025-02-05 08:10:49,Prod101,Electronics,199.99,Tokyo,Tablet
+User020,Session00080,Logout,2025-02-05 15:34:52,,,,Osaka,Mobile
+User016,Session00012,Add to Cart,2025-02-05 21:29:02,Prod102,Clothing,49.99,Fukuoka,Tablet
+User011,Session00034,Search,2025-02-05 22:52:21,,,,Nagoya,Desktop
+User020,Session00005,Logout,2025-02-05 19:38:38,,,,Osaka,Desktop
+User009,Session00004,Logout,2025-02-05 23:27:04,,,,Nagoya,Mobile
+User003,Session00098,Page View,2025-02-05 16:11:34,Prod105,Toys,29.99,Nagoya,Tablet
+User010,Session00089,Search,2025-02-05 07:59:21,,,,Kyoto,Desktop
+User018,Session00090,Purchase,2025-02-05 13:06:10,Prod101,Electronics,199.99,Osaka,Tablet
+User004,Session00036,Search,2025-02-05 09:41:38,,,,Osaka,Tablet
+User017,Session00074,Checkout,2025-02-05 21:52:22,Prod105,Toys,29.99,Tokyo,Mobile
+User009,Session00066,Page View,2025-02-05 22:01:41,Prod102,Clothing,49.99,Tokyo,Desktop
+User001,Session00043,Add to Cart,2025-02-05 21:38:41,Prod102,Clothing,49.99,Kyoto,Tablet
+User018,Session00087,Add to Cart,2025-02-05 21:00:49,Prod104,Home & Kitchen,89.99,Hiroshima,Mobile
+User014,Session00051,Purchase,2025-02-05 22:23:19,Prod105,Toys,29.99,Kyoto,Desktop
+User014,Session00032,Logout,2025-02-05 11:17:10,,,,Tokyo,Mobile
+User013,Session00036,Logout,2025-02-05 00:18:55,,,,Osaka,Mobile
+User019,Session00033,Purchase,2025-02-05 15:03:49,Prod106,Sports,59.99,Tokyo,Tablet
+User017,Session00040,Checkout,2025-02-05 09:52:10,Prod101,Electronics,199.99,Tokyo,Desktop
+User003,Session00003,Purchase,2025-02-05 10:15:23,Prod106,Sports,59.99,Sendai,Desktop
+User006,Session00008,Logout,2025-02-05 05:59:50,,,,Fukuoka,Tablet
+User009,Session00024,Checkout,2025-02-05 13:33:22,Prod101,Electronics,199.99,Osaka,Desktop
+User012,Session00070,Logout,2025-02-05 18:57:53,,,,Osaka,Mobile
+User018,Session00018,Checkout,2025-02-05 06:50:12,Prod106,Sports,59.99,Sapporo,Tablet
+User014,Session00041,Purchase,2025-02-05 12:43:18,Prod105,Toys,29.99,Osaka,Tablet
+User002,Session00075,Logout,2025-02-05 20:35:58,,,,Osaka,Mobile
+User010,Session00089,Checkout,2025-02-05 09:49:53,Prod104,Home & Kitchen,89.99,Sendai,Desktop
+User004,Session00067,Search,2025-02-05 05:07:49,,,,Fukuoka,Mobile
+User001,Session00062,Checkout,2025-02-05 04:27:10,Prod103,Books,15.99,Fukuoka,Desktop
+User007,Session00074,Checkout,2025-02-05 09:17:32,Prod104,Home & Kitchen,89.99,Tokyo,Mobile
+User017,Session00055,Checkout,2025-02-05 11:58:32,Prod102,Clothing,49.99,Nagoya,Desktop
+User010,Session00009,Search,2025-02-05 11:02:07,,,,Osaka,Tablet
+User014,Session00009,Page View,2025-02-05 15:01:59,Prod106,Sports,59.99,Fukuoka,Desktop
+User008,Session00035,Logout,2025-02-05 05:59:29,,,,Kyoto,Mobile
+User016,Session00067,Page View,2025-02-05 21:52:41,Prod106,Sports,59.99,Fukuoka,Mobile
+User004,Session00081,Checkout,2025-02-05 01:36:31,Prod105,Toys,29.99,Sendai,Desktop
+User018,Session00045,Page View,2025-02-05 19:46:46,Prod105,Toys,29.99,Tokyo,Desktop
+User010,Session00056,Add to Cart,2025-02-05 12:59:51,Prod105,Toys,29.99,Nagoya,Tablet
+User011,Session00031,Purchase,2025-02-05 18:56:14,Prod104,Home & Kitchen,89.99,Sendai,Tablet
+User016,Session00028,Search,2025-02-05 13:12:40,,,,Nagoya,Tablet
+User009,Session00030,Purchase,2025-02-05 15:30:46,Prod103,Books,15.99,Sendai,Desktop
+User013,Session00096,Add to Cart,2025-02-05 20:25:20,Prod101,Electronics,199.99,Hiroshima,Desktop
+User004,Session00008,Add to Cart,2025-02-05 18:42:21,Prod102,Clothing,49.99,Nagoya,Mobile
+User018,Session00051,Page View,2025-02-05 09:21:09,Prod101,Electronics,199.99,Sendai,Desktop
+User015,Session00070,Add to Cart,2025-02-05 19:11:50,Prod101,Electronics,199.99,Tokyo,Mobile
+User006,Session00078,Page View,2025-02-05 01:04:48,Prod106,Sports,59.99,Sendai,Desktop
+User019,Session00032,Logout,2025-02-05 00:05:32,,,,Sapporo,Mobile
+User008,Session00067,Purchase,2025-02-05 18:28:36,Prod106,Sports,59.99,Nagoya,Tablet
+User010,Session00021,Page View,2025-02-05 10:58:04,Prod105,Toys,29.99,Nagoya,Desktop
+User007,Session00012,Page View,2025-02-05 16:39:07,Prod103,Books,15.99,Sapporo,Tablet
+User002,Session00041,Search,2025-02-05 10:49:57,,,,Sendai,Tablet
+User001,Session00082,Page View,2025-02-05 05:21:46,Prod103,Books,15.99,Nagoya,Desktop
+User011,Session00064,Purchase,2025-02-05 15:06:55,Prod104,Home & Kitchen,89.99,Fukuoka,Tablet
+User016,Session00098,Checkout,2025-02-05 10:53:07,Prod101,Electronics,199.99,Tokyo,Tablet
+User003,Session00003,Checkout,2025-02-05 03:33:35,Prod102,Clothing,49.99,Sendai,Mobile
+User006,Session00088,Search,2025-02-05 08:50:03,,,,Osaka,Mobile
+User020,Session00077,Search,2025-02-05 09:00:30,,,,Sendai,Tablet
+User015,Session00014,Add to Cart,2025-02-05 03:07:13,Prod106,Sports,59.99,Fukuoka,Tablet
+User007,Session00049,Logout,2025-02-05 16:14:30,,,,Tokyo,Mobile
+User011,Session00088,Logout,2025-02-05 15:37:31,,,,Fukuoka,Desktop
+User017,Session00089,Search,2025-02-05 09:33:27,,,,Osaka,Tablet
+User003,Session00088,Add to Cart,2025-02-05 04:07:57,Prod104,Home & Kitchen,89.99,Fukuoka,Mobile
+User015,Session00008,Search,2025-02-05 07:16:18,,,,Kyoto,Desktop
+User005,Session00056,Add to Cart,2025-02-05 16:20:31,Prod106,Sports,59.99,Sapporo,Desktop
+User009,Session00065,Page View,2025-02-05 14:34:23,Prod106,Sports,59.99,Sapporo,Tablet
+User012,Session00075,Checkout,2025-02-05 01:58:30,Prod106,Sports,59.99,Kyoto,Tablet
+User002,Session00027,Checkout,2025-02-05 05:45:02,Prod104,Home & Kitchen,89.99,Sendai,Mobile
+User014,Session00062,Checkout,2025-02-05 06:35:09,Prod106,Sports,59.99,Nagoya,Desktop
+User014,Session00066,Page View,2025-02-05 01:01:41,Prod104,Home & Kitchen,89.99,Sapporo,Mobile
+User010,Session00065,Add to Cart,2025-02-05 00:18:10,Prod103,Books,15.99,Kyoto,Tablet
+User017,Session00056,Page View,2025-02-05 01:42:35,Prod102,Clothing,49.99,Nagoya,Tablet
+User006,Session00067,Purchase,2025-02-05 14:44:21,Prod103,Books,15.99,Osaka,Mobile
+User006,Session00022,Search,2025-02-05 21:54:20,,,,Osaka,Mobile
+User020,Session00009,Page View,2025-02-05 07:29:49,Prod102,Clothing,49.99,Fukuoka,Desktop
+User007,Session00042,Purchase,2025-02-05 08:51:05,Prod104,Home & Kitchen,89.99,Fukuoka,Desktop
+User020,Session00012,Page View,2025-02-05 00:16:14,Prod102,Clothing,49.99,Fukuoka,Desktop
+User014,Session00034,Checkout,2025-02-05 20:34:35,Prod102,Clothing,49.99,Nagoya,Mobile
+User010,Session00088,Search,2025-02-05 17:59:30,,,,Sendai,Mobile
+User008,Session00048,Search,2025-02-05 18:36:24,,,,Sendai,Tablet
+User008,Session00040,Page View,2025-02-05 05:58:13,Prod101,Electronics,199.99,Kyoto,Desktop
+User008,Session00068,Purchase,2025-02-05 05:41:50,Prod104,Home & Kitchen,89.99,Kyoto,Tablet
+User017,Session00099,Purchase,2025-02-05 10:45:10,Prod102,Clothing,49.99,Sapporo,Desktop
+User018,Session00024,Checkout,2025-02-05 20:23:01,Prod106,Sports,59.99,Hiroshima,Mobile
+User010,Session00068,Purchase,2025-02-05 19:50:27,Prod105,Toys,29.99,Osaka,Tablet
+User018,Session00062,Purchase,2025-02-05 17:26:29,Prod105,Toys,29.99,Nagoya,Tablet
+User011,Session00092,Logout,2025-02-05 06:05:18,,,,Sapporo,Mobile
+User012,Session00045,Purchase,2025-02-05 07:51:15,Prod104,Home & Kitchen,89.99,Sendai,Tablet
+User009,Session00091,Page View,2025-02-05 19:42:01,Prod106,Sports,59.99,Tokyo,Mobile
+User020,Session00074,Purchase,2025-02-05 06:47:49,Prod104,Home & Kitchen,89.99,Tokyo,Mobile
+User011,Session00036,Search,2025-02-05 16:04:20,,,,Hiroshima,Tablet
+User011,Session00052,Purchase,2025-02-05 06:33:03,Prod104,Home & Kitchen,89.99,Osaka,Mobile
+User020,Session00062,Purchase,2025-02-05 02:27:49,Prod103,Books,15.99,Hiroshima,Mobile
+User014,Session00065,Add to Cart,2025-02-05 09:02:54,Prod106,Sports,59.99,Osaka,Mobile
+User016,Session00042,Purchase,2025-02-05 02:04:01,Prod105,Toys,29.99,Tokyo,Mobile
+User001,Session00062,Purchase,2025-02-05 12:39:34,Prod103,Books,15.99,Kyoto,Tablet
+User008,Session00027,Logout,2025-02-05 14:05:08,,,,Osaka,Desktop
+User004,Session00088,Search,2025-02-05 03:37:41,,,,Sapporo,Mobile
+User019,Session00028,Logout,2025-02-05 01:40:24,,,,Nagoya,Mobile
+User008,Session00010,Purchase,2025-02-05 04:20:32,Prod104,Home & Kitchen,89.99,Tokyo,Mobile
+User008,Session00047,Page View,2025-02-05 23:02:24,Prod105,Toys,29.99,Hiroshima,Mobile
+User001,Session00099,Checkout,2025-02-05 13:38:25,Prod102,Clothing,49.99,Hiroshima,Mobile
+User008,Session00049,Logout,2025-02-05 04:15:37,,,,Tokyo,Mobile
+User008,Session00052,Add to Cart,2025-02-05 10:42:00,Prod105,Toys,29.99,Nagoya,Desktop
+User005,Session00060,Search,2025-02-05 05:09:57,,,,Hiroshima,Tablet
+User018,Session00055,Search,2025-02-05 05:02:35,,,,Nagoya,Desktop
+User019,Session00044,Checkout,2025-02-05 20:24:40,Prod105,Toys,29.99,Fukuoka,Desktop
+User005,Session00063,Add to Cart,2025-02-05 12:22:10,Prod105,Toys,29.99,Osaka,Desktop
+User013,Session00047,Checkout,2025-02-05 23:43:11,Prod105,Toys,29.99,Sapporo,Mobile
+User004,Session00024,Add to Cart,2025-02-05 00:16:57,Prod105,Toys,29.99,Fukuoka,Desktop
+User004,Session00065,Logout,2025-02-05 03:00:42,,,,Fukuoka,Mobile
+User007,Session00045,Search,2025-02-05 09:31:36,,,,Tokyo,Tablet
+User014,Session00032,Checkout,2025-02-05 13:29:26,Prod104,Home & Kitchen,89.99,Fukuoka,Desktop
+User002,Session00057,Add to Cart,2025-02-05 15:38:31,Prod104,Home & Kitchen,89.99,Sapporo,Mobile
+User012,Session00074,Page View,2025-02-05 05:35:18,Prod103,Books,15.99,Sendai,Desktop
+User011,Session00046,Logout,2025-02-05 14:32:54,,,,Tokyo,Mobile
+User018,Session00010,Page View,2025-02-05 08:47:39,Prod102,Clothing,49.99,Osaka,Tablet
+User020,Session00087,Checkout,2025-02-05 16:50:09,Prod103,Books,15.99,Kyoto,Desktop
+User002,Session00090,Logout,2025-02-05 07:57:35,,,,Osaka,Mobile
+User006,Session00003,Add to Cart,2025-02-05 15:53:40,Prod105,Toys,29.99,Hiroshima,Mobile
+User003,Session00031,Add to Cart,2025-02-05 07:11:09,Prod103,Books,15.99,Sendai,Mobile
+User012,Session00056,Add to Cart,2025-02-05 09:50:05,Prod104,Home & Kitchen,89.99,Fukuoka,Desktop
+User007,Session00006,Logout,2025-02-05 22:17:43,,,,Sendai,Desktop
+User017,Session00001,Search,2025-02-05 22:23:41,,,,Fukuoka,Mobile
+User005,Session00003,Add to Cart,2025-02-05 05:00:47,Prod106,Sports,59.99,Sapporo,Desktop
+User013,Session00076,Add to Cart,2025-02-05 15:05:31,Prod102,Clothing,49.99,Hiroshima,Tablet
+User002,Session00042,Page View,2025-02-05 01:34:34,Prod104,Home & Kitchen,89.99,Hiroshima,Desktop
+User005,Session00088,Add to Cart,2025-02-05 09:09:06,Prod105,Toys,29.99,Tokyo,Desktop
+User004,Session00087,Search,2025-02-05 16:25:16,,,,Sendai,Mobile
+User005,Session00017,Logout,2025-02-05 20:37:17,,,,Osaka,Desktop
+User007,Session00053,Add to Cart,2025-02-05 04:37:30,Prod101,Electronics,199.99,Nagoya,Tablet
+User019,Session00079,Purchase,2025-02-05 22:46:56,Prod102,Clothing,49.99,Sapporo,Mobile
+User003,Session00053,Add to Cart,2025-02-05 17:35:17,Prod106,Sports,59.99,Tokyo,Desktop
+User016,Session00023,Purchase,2025-02-05 13:42:21,Prod101,Electronics,199.99,Tokyo,Desktop
+User013,Session00036,Add to Cart,2025-02-05 09:27:54,Prod103,Books,15.99,Sapporo,Desktop
+User011,Session00055,Purchase,2025-02-05 22:08:04,Prod103,Books,15.99,Fukuoka,Tablet
+User016,Session00014,Add to Cart,2025-02-05 22:44:29,Prod106,Sports,59.99,Nagoya,Mobile
+User001,Session00023,Purchase,2025-02-05 16:26:24,Prod101,Electronics,199.99,Kyoto,Desktop
+User015,Session00013,Add to Cart,2025-02-05 14:54:14,Prod103,Books,15.99,Tokyo,Desktop
+User003,Session00031,Search,2025-02-05 08:02:09,,,,Sendai,Tablet
+User006,Session00061,Page View,2025-02-05 08:09:48,Prod101,Electronics,199.99,Nagoya,Desktop
+User009,Session00035,Add to Cart,2025-02-05 00:04:03,Prod105,Toys,29.99,Sapporo,Tablet
+User006,Session00087,Add to Cart,2025-02-05 10:57:34,Prod102,Clothing,49.99,Nagoya,Mobile
+User008,Session00001,Checkout,2025-02-05 21:59:49,Prod106,Sports,59.99,Nagoya,Desktop
+User004,Session00063,Search,2025-02-05 12:17:03,,,,Sendai,Mobile
+User006,Session00085,Add to Cart,2025-02-05 23:08:25,Prod106,Sports,59.99,Nagoya,Desktop
+User019,Session00013,Checkout,2025-02-05 13:04:50,Prod103,Books,15.99,Tokyo,Mobile
+User006,Session00058,Search,2025-02-05 10:08:11,,,,Sapporo,Tablet
+User020,Session00019,Search,2025-02-05 16:20:28,,,,Tokyo,Mobile
+User017,Session00097,Search,2025-02-05 07:08:12,,,,Sendai,Mobile
+User001,Session00029,Checkout,2025-02-05 00:14:34,Prod104,Home & Kitchen,89.99,Tokyo,Tablet
+User002,Session00056,Purchase,2025-02-05 09:41:32,Prod102,Clothing,49.99,Nagoya,Desktop
+User001,Session00083,Logout,2025-02-05 12:17:05,,,,Nagoya,Desktop
+User013,Session00051,Logout,2025-02-05 00:40:24,,,,Sendai,Mobile
+User014,Session00011,Logout,2025-02-05 11:20:38,,,,Sapporo,Mobile
+User016,Session00081,Add to Cart,2025-02-05 00:21:59,Prod104,Home & Kitchen,89.99,Kyoto,Mobile
+User010,Session00080,Logout,2025-02-05 21:23:01,,,,Hiroshima,Desktop
+User019,Session00023,Logout,2025-02-05 16:00:48,,,,Osaka,Mobile
+User009,Session00060,Page View,2025-02-05 13:34:02,Prod102,Clothing,49.99,Osaka,Mobile
+User006,Session00036,Checkout,2025-02-05 10:34:45,Prod106,Sports,59.99,Kyoto,Desktop
+User006,Session00099,Logout,2025-02-05 11:55:57,,,,Nagoya,Tablet
+User007,Session00062,Page View,2025-02-05 18:37:36,Prod102,Clothing,49.99,Sapporo,Mobile
+User009,Session00036,Page View,2025-02-05 19:22:35,Prod105,Toys,29.99,Fukuoka,Desktop
+User006,Session00023,Page View,2025-02-05 10:20:02,Prod106,Sports,59.99,Fukuoka,Desktop
+User017,Session00055,Logout,2025-02-05 17:43:44,,,,Nagoya,Mobile
+User014,Session00025,Checkout,2025-02-05 14:33:12,Prod105,Toys,29.99,Osaka,Tablet
+User010,Session00051,Add to Cart,2025-02-05 12:17:45,Prod105,Toys,29.99,Kyoto,Desktop
+User003,Session00005,Purchase,2025-02-05 07:12:16,Prod103,Books,15.99,Fukuoka,Tablet
+User006,Session00067,Add to Cart,2025-02-05 10:54:54,Prod103,Books,15.99,Sendai,Mobile
+User007,Session00055,Page View,2025-02-05 19:39:22,Prod105,Toys,29.99,Kyoto,Desktop
+User016,Session00032,Search,2025-02-05 07:02:07,,,,Nagoya,Mobile
+User014,Session00088,Logout,2025-02-05 10:05:07,,,,Osaka,Desktop
+User002,Session00087,Add to Cart,2025-02-05 08:10:33,Prod105,Toys,29.99,Sendai,Tablet
+User015,Session00025,Page View,2025-02-05 07:30:31,Prod104,Home & Kitchen,89.99,Kyoto,Mobile
+User017,Session00030,Page View,2025-02-05 11:02:35,Prod104,Home & Kitchen,89.99,Tokyo,Tablet
+User006,Session00016,Logout,2025-02-05 09:59:23,,,,Tokyo,Tablet
+User006,Session00067,Search,2025-02-05 03:01:51,,,,Fukuoka,Tablet
+User002,Session00082,Checkout,2025-02-05 07:48:44,Prod106,Sports,59.99,Sendai,Desktop
+User007,Session00067,Add to Cart,2025-02-05 18:46:09,Prod104,Home & Kitchen,89.99,Kyoto,Mobile
+User011,Session00023,Search,2025-02-05 05:06:04,,,,Tokyo,Tablet
+User011,Session00062,Search,2025-02-05 07:49:41,,,,Sendai,Desktop
+User012,Session00049,Purchase,2025-02-05 03:55:20,Prod101,Electronics,199.99,Tokyo,Mobile
+User003,Session00054,Purchase,2025-02-05 09:24:18,Prod106,Sports,59.99,Tokyo,Mobile
+User017,Session00078,Add to Cart,2025-02-05 18:25:32,Prod106,Sports,59.99,Fukuoka,Desktop
+User004,Session00037,Add to Cart,2025-02-05 23:41:26,Prod106,Sports,59.99,Sapporo,Desktop
+User019,Session00085,Add to Cart,2025-02-05 02:40:52,Prod102,Clothing,49.99,Sendai,Tablet
+User017,Session00028,Search,2025-02-05 15:10:56,,,,Fukuoka,Tablet
+User009,Session00038,Logout,2025-02-05 15:49:40,,,,Fukuoka,Desktop
+User020,Session00053,Logout,2025-02-05 06:19:35,,,,Sendai,Mobile
+User009,Session00030,Search,2025-02-05 01:42:49,,,,Kyoto,Desktop
+User002,Session00077,Purchase,2025-02-05 23:29:58,Prod103,Books,15.99,Hiroshima,Desktop
+User019,Session00068,Search,2025-02-05 02:37:52,,,,Osaka,Tablet
+User007,Session00076,Purchase,2025-02-05 04:54:05,Prod103,Books,15.99,Nagoya,Mobile
+User008,Session00020,Purchase,2025-02-05 07:20:16,Prod101,Electronics,199.99,Kyoto,Desktop
+User019,Session00071,Add to Cart,2025-02-05 14:58:01,Prod105,Toys,29.99,Nagoya,Tablet
+User011,Session00007,Search,2025-02-05 00:26:36,,,,Tokyo,Tablet
+User011,Session00014,Add to Cart,2025-02-05 15:10:38,Prod101,Electronics,199.99,Fukuoka,Tablet
+User010,Session00027,Purchase,2025-02-05 13:41:21,Prod101,Electronics,199.99,Sendai,Tablet
+User003,Session00081,Page View,2025-02-05 13:21:30,Prod104,Home & Kitchen,89.99,Fukuoka,Mobile
+User001,Session00055,Page View,2025-02-05 20:29:41,Prod102,Clothing,49.99,Fukuoka,Desktop
+User011,Session00025,Logout,2025-02-05 10:33:36,,,,Kyoto,Desktop
+User002,Session00053,Add to Cart,2025-02-05 21:49:49,Prod103,Books,15.99,Sendai,Desktop
+User003,Session00064,Page View,2025-02-05 16:04:20,Prod102,Clothing,49.99,Kyoto,Tablet
+User001,Session00046,Page View,2025-02-05 04:03:06,Prod105,Toys,29.99,Nagoya,Desktop
+User015,Session00025,Logout,2025-02-05 20:14:06,,,,Fukuoka,Mobile
+User011,Session00056,Page View,2025-02-05 09:59:52,Prod101,Electronics,199.99,Fukuoka,Desktop
+User014,Session00025,Checkout,2025-02-05 16:05:23,Prod106,Sports,59.99,Osaka,Tablet
+User002,Session00051,Search,2025-02-05 23:22:50,,,,Nagoya,Desktop
+User016,Session00047,Purchase,2025-02-05 14:19:17,Prod101,Electronics,199.99,Sapporo,Desktop
+User014,Session00025,Add to Cart,2025-02-05 09:04:18,Prod106,Sports,59.99,Sendai,Mobile
+User018,Session00008,Search,2025-02-05 01:19:23,,,,Fukuoka,Tablet
+User018,Session00090,Page View,2025-02-05 11:57:00,Prod105,Toys,29.99,Hiroshima,Desktop
+User004,Session00039,Checkout,2025-02-05 05:58:57,Prod106,Sports,59.99,Hiroshima,Mobile
+User001,Session00074,Page View,2025-02-05 09:35:36,Prod106,Sports,59.99,Nagoya,Tablet
+User016,Session00010,Logout,2025-02-05 04:58:02,,,,Sapporo,Mobile
+User001,Session00092,Purchase,2025-02-05 20:33:55,Prod101,Electronics,199.99,Kyoto,Mobile
+User008,Session00005,Page View,2025-02-05 04:56:10,Prod106,Sports,59.99,Sapporo,Desktop
+User017,Session00039,Search,2025-02-05 13:36:53,,,,Hiroshima,Tablet
+User011,Session00100,Search,2025-02-05 01:55:36,,,,Tokyo,Desktop
+User015,Session00041,Search,2025-02-05 22:20:11,,,,Nagoya,Tablet
+User008,Session00005,Checkout,2025-02-05 00:30:48,Prod102,Clothing,49.99,Tokyo,Mobile
+User007,Session00040,Add to Cart,2025-02-05 14:27:25,Prod106,Sports,59.99,Sendai,Mobile
+User010,Session00044,Logout,2025-02-05 05:27:12,,,,Osaka,Mobile
+User020,Session00004,Add to Cart,2025-02-05 01:47:44,Prod104,Home & Kitchen,89.99,Sendai,Mobile
+User002,Session00083,Logout,2025-02-05 08:20:15,,,,Fukuoka,Mobile
+User004,Session00097,Add to Cart,2025-02-05 02:24:21,Prod104,Home & Kitchen,89.99,Kyoto,Tablet
+User013,Session00011,Page View,2025-02-05 06:52:51,Prod105,Toys,29.99,Nagoya,Desktop
+User007,Session00089,Search,2025-02-05 08:42:03,,,,Nagoya,Desktop
+User019,Session00088,Logout,2025-02-05 06:11:38,,,,Sapporo,Mobile
+User011,Session00099,Checkout,2025-02-05 20:55:24,Prod101,Electronics,199.99,Hiroshima,Desktop
+User015,Session00089,Logout,2025-02-05 01:19:17,,,,Kyoto,Mobile
+User007,Session00029,Purchase,2025-02-05 15:22:39,Prod103,Books,15.99,Tokyo,Mobile
+User015,Session00066,Purchase,2025-02-05 16:35:20,Prod103,Books,15.99,Osaka,Tablet
+User017,Session00001,Checkout,2025-02-05 01:25:02,Prod102,Clothing,49.99,Kyoto,Tablet
+User009,Session00073,Purchase,2025-02-05 03:16:54,Prod102,Clothing,49.99,Tokyo,Tablet
+User011,Session00055,Checkout,2025-02-05 08:28:09,Prod103,Books,15.99,Osaka,Tablet
+User010,Session00007,Checkout,2025-02-05 04:19:28,Prod102,Clothing,49.99,Osaka,Desktop
+User008,Session00047,Search,2025-02-05 09:56:11,,,,Sapporo,Mobile
+User008,Session00089,Checkout,2025-02-05 08:57:10,Prod103,Books,15.99,Tokyo,Mobile
+User011,Session00069,Add to Cart,2025-02-05 05:39:49,Prod105,Toys,29.99,Sapporo,Mobile
+User006,Session00065,Checkout,2025-02-05 08:38:14,Prod106,Sports,59.99,Fukuoka,Desktop
+User002,Session00015,Add to Cart,2025-02-05 12:45:16,Prod101,Electronics,199.99,Tokyo,Tablet
+User015,Session00052,Purchase,2025-02-05 03:06:07,Prod105,Toys,29.99,Osaka,Tablet
+User002,Session00043,Add to Cart,2025-02-05 23:00:52,Prod102,Clothing,49.99,Tokyo,Desktop
+User009,Session00050,Search,2025-02-05 14:11:19,,,,Osaka,Tablet
+User004,Session00025,Checkout,2025-02-05 16:55:00,Prod106,Sports,59.99,Tokyo,Tablet
+User010,Session00082,Search,2025-02-05 11:38:10,,,,Hiroshima,Tablet
+User005,Session00094,Purchase,2025-02-05 23:57:44,Prod101,Electronics,199.99,Tokyo,Tablet
+User014,Session00094,Page View,2025-02-05 15:14:30,Prod101,Electronics,199.99,Tokyo,Mobile
+User001,Session00066,Search,2025-02-05 20:10:14,,,,Sendai,Tablet
+User008,Session00096,Checkout,2025-02-05 02:35:26,Prod103,Books,15.99,Sapporo,Tablet
+User016,Session00095,Add to Cart,2025-02-05 12:30:24,Prod106,Sports,59.99,Nagoya,Mobile
+User002,Session00071,Page View,2025-02-05 16:04:17,Prod103,Books,15.99,Kyoto,Tablet
+User012,Session00077,Purchase,2025-02-05 16:52:24,Prod106,Sports,59.99,Tokyo,Desktop
+User019,Session00041,Checkout,2025-02-05 03:08:04,Prod101,Electronics,199.99,Kyoto,Tablet
+User017,Session00086,Add to Cart,2025-02-05 10:33:26,Prod104,Home & Kitchen,89.99,Tokyo,Desktop
+User005,Session00063,Purchase,2025-02-05 18:06:57,Prod104,Home & Kitchen,89.99,Tokyo,Desktop
+User007,Session00052,Page View,2025-02-05 07:03:46,Prod106,Sports,59.99,Hiroshima,Tablet
+User002,Session00033,Logout,2025-02-05 17:02:04,,,,Tokyo,Desktop
+User011,Session00010,Page View,2025-02-05 06:18:26,Prod102,Clothing,49.99,Tokyo,Desktop
+User006,Session00031,Logout,2025-02-05 04:45:26,,,,Sapporo,Mobile
+User001,Session00057,Logout,2025-02-05 00:23:30,,,,Nagoya,Tablet
+User018,Session00011,Search,2025-02-05 18:37:46,,,,Fukuoka,Mobile
+User017,Session00017,Purchase,2025-02-05 15:18:03,Prod104,Home & Kitchen,89.99,Sapporo,Desktop
+User014,Session00052,Add to Cart,2025-02-05 07:52:18,Prod101,Electronics,199.99,Nagoya,Tablet
+User020,Session00014,Purchase,2025-02-05 09:54:57,Prod105,Toys,29.99,Osaka,Mobile
+User016,Session00073,Page View,2025-02-05 07:01:56,Prod103,Books,15.99,Osaka,Tablet
+User004,Session00060,Add to Cart,2025-02-05 00:05:25,Prod103,Books,15.99,Sendai,Mobile
+User015,Session00081,Search,2025-02-05 06:05:45,,,,Kyoto,Desktop
+User006,Session00093,Search,2025-02-05 03:35:04,,,,Fukuoka,Mobile
+User013,Session00055,Page View,2025-02-05 12:58:53,Prod106,Sports,59.99,Kyoto,Mobile
+User003,Session00085,Page View,2025-02-05 22:29:42,Prod105,Toys,29.99,Osaka,Mobile
+User018,Session00049,Purchase,2025-02-05 06:29:53,Prod106,Sports,59.99,Kyoto,Desktop
+User002,Session00048,Logout,2025-02-05 19:42:38,,,,Nagoya,Desktop
+User003,Session00021,Search,2025-02-05 10:47:33,,,,Osaka,Desktop
+User011,Session00053,Search,2025-02-05 16:29:32,,,,Hiroshima,Mobile
+User018,Session00097,Page View,2025-02-05 04:14:40,Prod102,Clothing,49.99,Tokyo,Tablet
+User019,Session00043,Logout,2025-02-05 01:53:25,,,,Sapporo,Desktop
+User001,Session00092,Add to Cart,2025-02-05 05:15:57,Prod106,Sports,59.99,Sapporo,Desktop
+User006,Session00021,Search,2025-02-05 17:46:37,,,,Sapporo,Tablet
+User018,Session00059,Search,2025-02-05 16:16:03,,,,Kyoto,Desktop
+User017,Session00052,Add to Cart,2025-02-05 15:49:28,Prod103,Books,15.99,Osaka,Desktop
+User017,Session00060,Checkout,2025-02-05 10:26:15,Prod103,Books,15.99,Osaka,Mobile
+User020,Session00002,Logout,2025-02-05 23:04:23,,,,Tokyo,Mobile
+User012,Session00094,Purchase,2025-02-05 21:04:56,Prod102,Clothing,49.99,Sapporo,Tablet
+User001,Session00049,Search,2025-02-05 23:34:54,,,,Kyoto,Tablet
+User012,Session00057,Page View,2025-02-05 04:43:44,Prod104,Home & Kitchen,89.99,Kyoto,Desktop
+User003,Session00041,Logout,2025-02-05 15:15:00,,,,Sendai,Desktop
+User016,Session00092,Add to Cart,2025-02-05 09:54:32,Prod101,Electronics,199.99,Kyoto,Tablet
+User014,Session00060,Page View,2025-02-05 07:12:50,Prod101,Electronics,199.99,Tokyo,Desktop
+User014,Session00058,Checkout,2025-02-05 17:16:31,Prod104,Home & Kitchen,89.99,Osaka,Mobile
+User017,Session00009,Search,2025-02-05 23:00:12,,,,Osaka,Mobile
+User020,Session00097,Search,2025-02-05 11:14:45,,,,Hiroshima,Desktop
+User012,Session00099,Add to Cart,2025-02-05 04:36:49,Prod105,Toys,29.99,Hiroshima,Mobile
+User012,Session00063,Search,2025-02-05 20:20:06,,,,Tokyo,Desktop
+User012,Session00007,Page View,2025-02-05 21:13:35,Prod106,Sports,59.99,Hiroshima,Mobile
+User003,Session00091,Purchase,2025-02-05 18:10:50,Prod103,Books,15.99,Sendai,Desktop
+User011,Session00059,Page View,2025-02-05 21:11:37,Prod106,Sports,59.99,Sendai,Tablet
+User002,Session00060,Purchase,2025-02-05 23:24:12,Prod104,Home & Kitchen,89.99,Osaka,Mobile
+User007,Session00010,Search,2025-02-05 07:44:40,,,,Kyoto,Mobile
+User013,Session00049,Add to Cart,2025-02-05 22:23:33,Prod104,Home & Kitchen,89.99,Nagoya,Mobile
+User019,Session00031,Purchase,2025-02-05 10:46:42,Prod105,Toys,29.99,Nagoya,Desktop
+User007,Session00095,Purchase,2025-02-05 15:09:59,Prod103,Books,15.99,Sapporo,Mobile
+User004,Session00085,Page View,2025-02-05 21:32:53,Prod105,Toys,29.99,Kyoto,Mobile
+User014,Session00082,Logout,2025-02-05 01:33:34,,,,Sendai,Tablet
+User006,Session00036,Checkout,2025-02-05 16:33:11,Prod102,Clothing,49.99,Osaka,Mobile
+User001,Session00016,Purchase,2025-02-05 15:21:29,Prod106,Sports,59.99,Nagoya,Tablet
+User016,Session00031,Search,2025-02-05 05:53:09,,,,Kyoto,Desktop
+User006,Session00016,Purchase,2025-02-05 11:26:31,Prod103,Books,15.99,Kyoto,Tablet
+User011,Session00087,Page View,2025-02-05 09:03:23,Prod105,Toys,29.99,Nagoya,Mobile
+User015,Session00061,Page View,2025-02-05 15:26:02,Prod105,Toys,29.99,Kyoto,Mobile
+User013,Session00052,Page View,2025-02-05 23:12:48,Prod104,Home & Kitchen,89.99,Nagoya,Mobile
+User015,Session00055,Logout,2025-02-05 04:36:20,,,,Sendai,Desktop
+User012,Session00015,Logout,2025-02-05 11:52:10,,,,Kyoto,Tablet
+User002,Session00021,Logout,2025-02-05 05:05:29,,,,Hiroshima,Desktop
+User017,Session00027,Search,2025-02-05 05:45:58,,,,Kyoto,Tablet
+User018,Session00038,Add to Cart,2025-02-05 03:03:25,Prod102,Clothing,49.99,Tokyo,Tablet
+User004,Session00006,Search,2025-02-05 12:37:23,,,,Tokyo,Mobile
+User019,Session00069,Page View,2025-02-05 06:14:04,Prod103,Books,15.99,Sapporo,Tablet
+User014,Session00067,Checkout,2025-02-05 23:42:05,Prod101,Electronics,199.99,Hiroshima,Desktop
+User002,Session00053,Search,2025-02-05 18:56:00,,,,Sendai,Mobile
+User001,Session00038,Purchase,2025-02-05 21:40:28,Prod101,Electronics,199.99,Osaka,Desktop
+User001,Session00062,Checkout,2025-02-05 02:34:12,Prod104,Home & Kitchen,89.99,Fukuoka,Tablet
+User010,Session00083,Search,2025-02-05 13:42:06,,,,Osaka,Tablet
+User012,Session00015,Page View,2025-02-05 19:19:13,Prod102,Clothing,49.99,Nagoya,Tablet
+User007,Session00040,Checkout,2025-02-05 15:37:00,Prod103,Books,15.99,Nagoya,Desktop
+User019,Session00075,Checkout,2025-02-05 16:24:34,Prod105,Toys,29.99,Tokyo,Tablet
+User010,Session00088,Add to Cart,2025-02-05 04:30:37,Prod103,Books,15.99,Hiroshima,Desktop
+User002,Session00022,Purchase,2025-02-05 04:45:39,Prod101,Electronics,199.99,Sapporo,Desktop
+User014,Session00098,Checkout,2025-02-05 08:09:38,Prod105,Toys,29.99,Sendai,Tablet
+User020,Session00089,Checkout,2025-02-05 15:16:30,Prod106,Sports,59.99,Tokyo,Tablet
+User019,Session00083,Search,2025-02-05 12:27:15,,,,Hiroshima,Tablet
+User007,Session00011,Purchase,2025-02-05 02:41:14,Prod106,Sports,59.99,Tokyo,Mobile
+User019,Session00048,Search,2025-02-05 17:03:16,,,,Osaka,Mobile
+User009,Session00084,Checkout,2025-02-05 18:27:03,Prod106,Sports,59.99,Hiroshima,Tablet
+User020,Session00060,Checkout,2025-02-05 04:33:41,Prod105,Toys,29.99,Osaka,Tablet
+User001,Session00099,Checkout,2025-02-05 07:41:39,Prod104,Home & Kitchen,89.99,Hiroshima,Desktop
+User005,Session00033,Purchase,2025-02-05 11:13:54,Prod105,Toys,29.99,Nagoya,Mobile
+User013,Session00078,Logout,2025-02-05 05:55:15,,,,Hiroshima,Tablet
+User013,Session00001,Checkout,2025-02-05 16:25:00,Prod105,Toys,29.99,Kyoto,Tablet
+User002,Session00080,Page View,2025-02-05 02:02:09,Prod104,Home & Kitchen,89.99,Kyoto,Tablet
+User009,Session00067,Page View,2025-02-05 03:31:02,Prod104,Home & Kitchen,89.99,Hiroshima,Mobile
+User009,Session00079,Purchase,2025-02-05 01:05:01,Prod105,Toys,29.99,Osaka,Tablet
+User010,Session00039,Add to Cart,2025-02-05 08:02:23,Prod102,Clothing,49.99,Kyoto,Mobile
+User003,Session00016,Checkout,2025-02-05 00:53:02,Prod102,Clothing,49.99,Sapporo,Tablet
+User013,Session00048,Search,2025-02-05 02:00:00,,,,Sapporo,Tablet
+User004,Session00069,Logout,2025-02-05 20:40:31,,,,Nagoya,Tablet
+User018,Session00018,Page View,2025-02-05 18:00:14,Prod106,Sports,59.99,Sendai,Desktop
+User007,Session00070,Checkout,2025-02-05 23:07:43,Prod102,Clothing,49.99,Fukuoka,Desktop
+User012,Session00045,Page View,2025-02-05 16:23:54,Prod101,Electronics,199.99,Osaka,Tablet
+User007,Session00026,Add to Cart,2025-02-05 11:32:51,Prod104,Home & Kitchen,89.99,Tokyo,Desktop
+User018,Session00058,Page View,2025-02-05 23:43:02,Prod106,Sports,59.99,Hiroshima,Mobile
+User010,Session00015,Search,2025-02-05 18:01:34,,,,Kyoto,Tablet
+User014,Session00065,Search,2025-02-05 06:24:03,,,,Sapporo,Mobile
+User006,Session00025,Page View,2025-02-05 03:45:25,Prod103,Books,15.99,Nagoya,Desktop
+User020,Session00078,Page View,2025-02-05 09:06:03,Prod101,Electronics,199.99,Fukuoka,Desktop
+User017,Session00092,Checkout,2025-02-05 10:54:26,Prod105,Toys,29.99,Tokyo,Desktop
+User001,Session00073,Purchase,2025-02-05 20:17:35,Prod103,Books,15.99,Kyoto,Mobile
+User005,Session00001,Checkout,2025-02-05 08:40:24,Prod103,Books,15.99,Kyoto,Desktop
+User014,Session00036,Checkout,2025-02-05 17:41:34,Prod103,Books,15.99,Osaka,Tablet
+User020,Session00024,Logout,2025-02-05 16:44:28,,,,Sapporo,Tablet
+User018,Session00049,Checkout,2025-02-05 05:58:24,Prod103,Books,15.99,Hiroshima,Desktop
+User013,Session00030,Page View,2025-02-05 17:48:29,Prod101,Electronics,199.99,Nagoya,Tablet
+User009,Session00014,Page View,2025-02-05 22:35:21,Prod105,Toys,29.99,Kyoto,Desktop
+User014,Session00048,Purchase,2025-02-05 10:54:28,Prod103,Books,15.99,Fukuoka,Tablet
+User005,Session00082,Checkout,2025-02-05 03:20:22,Prod103,Books,15.99,Fukuoka,Tablet
+User015,Session00012,Search,2025-02-05 09:12:16,,,,Sapporo,Desktop
+User020,Session00023,Add to Cart,2025-02-05 11:37:36,Prod106,Sports,59.99,Nagoya,Mobile
+User001,Session00069,Purchase,2025-02-05 08:05:44,Prod104,Home & Kitchen,89.99,Fukuoka,Mobile
+User002,Session00089,Purchase,2025-02-05 09:37:48,Prod101,Electronics,199.99,Sapporo,Tablet
+User006,Session00097,Purchase,2025-02-05 16:07:37,Prod103,Books,15.99,Kyoto,Desktop
+User007,Session00021,Add to Cart,2025-02-05 18:31:33,Prod102,Clothing,49.99,Nagoya,Mobile
+User013,Session00018,Purchase,2025-02-05 10:30:00,Prod103,Books,15.99,Tokyo,Mobile
+User007,Session00019,Logout,2025-02-05 21:21:34,,,,Sapporo,Mobile
+User018,Session00050,Checkout,2025-02-05 13:22:34,Prod102,Clothing,49.99,Tokyo,Mobile
+User011,Session00028,Page View,2025-02-05 00:29:16,Prod103,Books,15.99,Kyoto,Tablet
+User018,Session00028,Search,2025-02-05 09:19:52,,,,Kyoto,Mobile
+User003,Session00068,Purchase,2025-02-05 19:27:26,Prod101,Electronics,199.99,Tokyo,Mobile
+User008,Session00028,Add to Cart,2025-02-05 22:36:37,Prod102,Clothing,49.99,Sapporo,Mobile
+User001,Session00081,Search,2025-02-05 22:01:10,,,,Sapporo,Tablet
+User003,Session00098,Checkout,2025-02-05 16:13:23,Prod104,Home & Kitchen,89.99,Sapporo,Desktop
+User003,Session00082,Logout,2025-02-05 23:19:23,,,,Sendai,Tablet
+User017,Session00099,Page View,2025-02-05 14:26:50,Prod101,Electronics,199.99,Sapporo,Mobile
+User007,Session00090,Logout,2025-02-05 03:37:15,,,,Fukuoka,Mobile
+User010,Session00018,Checkout,2025-02-05 06:51:00,Prod102,Clothing,49.99,Sendai,Desktop
+User010,Session00008,Add to Cart,2025-02-05 09:04:27,Prod104,Home & Kitchen,89.99,Nagoya,Desktop
+User007,Session00001,Checkout,2025-02-05 12:24:57,Prod101,Electronics,199.99,Kyoto,Desktop
+User014,Session00097,Logout,2025-02-05 01:22:38,,,,Sapporo,Tablet
+User001,Session00007,Checkout,2025-02-05 01:50:34,Prod105,Toys,29.99,Sapporo,Mobile
+User010,Session00048,Logout,2025-02-05 18:15:09,,,,Sendai,Tablet
+User007,Session00075,Add to Cart,2025-02-05 06:59:40,Prod103,Books,15.99,Nagoya,Tablet
+User019,Session00020,Logout,2025-02-05 05:38:08,,,,Osaka,Desktop
+User006,Session00050,Checkout,2025-02-05 10:00:17,Prod103,Books,15.99,Nagoya,Tablet
+User018,Session00073,Page View,2025-02-05 01:50:07,Prod103,Books,15.99,Tokyo,Mobile
+User002,Session00061,Add to Cart,2025-02-05 21:39:03,Prod101,Electronics,199.99,Kyoto,Desktop
+User004,Session00069,Search,2025-02-05 13:12:30,,,,Kyoto,Tablet
+User006,Session00065,Page View,2025-02-05 22:39:34,Prod105,Toys,29.99,Kyoto,Tablet
+User011,Session00033,Checkout,2025-02-05 16:45:24,Prod106,Sports,59.99,Nagoya,Desktop
+User007,Session00033,Logout,2025-02-05 17:28:39,,,,Fukuoka,Desktop
+User019,Session00002,Logout,2025-02-05 03:50:12,,,,Sapporo,Desktop
+User008,Session00025,Logout,2025-02-05 22:10:57,,,,Sapporo,Mobile
+User006,Session00026,Add to Cart,2025-02-05 14:13:43,Prod101,Electronics,199.99,Tokyo,Desktop
+User002,Session00059,Logout,2025-02-05 04:40:12,,,,Kyoto,Desktop
+User020,Session00014,Search,2025-02-05 15:08:01,,,,Osaka,Mobile
+User016,Session00010,Logout,2025-02-05 09:00:08,,,,Kyoto,Mobile
+User001,Session00092,Add to Cart,2025-02-05 08:55:12,Prod102,Clothing,49.99,Tokyo,Desktop
+User011,Session00084,Add to Cart,2025-02-05 23:51:44,Prod101,Electronics,199.99,Nagoya,Tablet
+User009,Session00079,Logout,2025-02-05 03:59:52,,,,Kyoto,Tablet
+User018,Session00052,Purchase,2025-02-05 00:08:39,Prod101,Electronics,199.99,Sendai,Desktop
+User014,Session00049,Page View,2025-02-05 03:35:18,Prod104,Home & Kitchen,89.99,Hiroshima,Mobile
+User009,Session00048,Logout,2025-02-05 03:41:26,,,,Fukuoka,Mobile
+User002,Session00087,Search,2025-02-05 07:41:53,,,,Sendai,Mobile
+User003,Session00043,Logout,2025-02-05 20:36:12,,,,Hiroshima,Desktop
+User017,Session00034,Logout,2025-02-05 17:11:24,,,,Tokyo,Desktop
